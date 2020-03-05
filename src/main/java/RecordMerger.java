@@ -1,16 +1,10 @@
 import java.io.IOException;
-import java.nio.file.Files;
-import java.util.ArrayList;
 import java.util.List;
-import model.CSVParser;
-import model.HTMLParser;
+
 import model.Person;
-import model.Parser;
-import utlis.ResourceLoader;
 import utlis.ResourceMerger;
 import utlis.ResourceParser;
 import utlis.ResourceWriter;
-import java.nio.file.Files.*;
 
 public class RecordMerger {
 

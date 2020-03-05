@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CSVParserTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-03-05T01:25:44" hostname="Zefengs-MacBook-Pro.local" time="0.011">
+  <properties/>
+  <testcase name="testLanguage" classname="CSVParserTest" time="0.01"/>
+  <testcase name="testEmptyInfo" classname="CSVParserTest" time="0.001"/>
+  <system-out><![CDATA[Person's info: {Occupation=Pilot, Gender=Male, ID=6666, Name=Jerry Springfield}
+Person's info: {Occupation=老师, Gender=Female, ID=5555, Name=Jane Doe}
+Person's info: {Occupation=医生, Gender=Female, ID=3333, Name=Mary Phil}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

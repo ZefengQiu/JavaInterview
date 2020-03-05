@@ -40,7 +40,7 @@ public class ResourceParser {
         return lists;
     }
 
-    public String getExtensionByGuava(String filename) {
+    private String getExtensionByGuava(String filename) {
         return Files.getFileExtension(filename);
     }
 

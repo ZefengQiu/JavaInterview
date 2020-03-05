@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ResourceMergerTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-03-05T01:25:44" hostname="Zefengs-MacBook-Pro.local" time="0.066">
+  <properties/>
+  <testcase name="test0" classname="ResourceMergerTest" time="0.062"/>
+  <testcase name="test1" classname="ResourceMergerTest" time="0.003"/>
+  <testcase name="test2" classname="ResourceMergerTest" time="0.001"/>
+  <system-out><![CDATA[Person's info: {Address=123 苹果街, PhoneNum=555-1234, ID=1111, Name=John Smith}
+Person's info: {Occupation=医生, Gender=Female, ID=3333, Name=Mary Phil}
+Person's info: {Occupation=老师, Address=456 橘子街, PhoneNum=555-5678, ID=5555, Gender=Female, Name=Jane Doe}
+Person's info: {Occupation=Pilot, Gender=Male, ID=6666, Name=Jerry Springfield}
+Person's info: {Address=123 苹果街, PhoneNum=555-1234, ID=1111, Name=John Smith}
+Person's info: {Address=456 橘子街, PhoneNum=555-5678, ID=5555, Name=Jane Doe}
+Person's info: {Occupation=医生, Gender=Female, ID=3333, Name=Mary Phil}
+Person's info: {Occupation=老师, Gender=Female, ID=5555, Name=Jane Doe}
+Person's info: {Occupation=Pilot, Gender=Male, ID=6666, Name=Jerry Springfield}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,14 @@
+PPerson's info: {Occupation=Pilot, Gender=Male, ID=6666, Name=Jerry Springfield}
+JPerson's info: {Occupation=老师, Gender=Female, ID=5555, Name=Jane Doe}
+KPerson's info: {Occupation=医生, Gender=Female, ID=3333, Name=Mary Phil}
+TPerson's info: {Address=123 苹果街, PhoneNum=555-1234, ID=1111, Name=John Smith}
+KPerson's info: {Occupation=医生, Gender=Female, ID=3333, Name=Mary Phil}
+tPerson's info: {Occupation=老师, Address=456 橘子街, PhoneNum=555-5678, ID=5555, Gender=Female, Name=Jane Doe}
+PPerson's info: {Occupation=Pilot, Gender=Male, ID=6666, Name=Jerry Springfield}
+TPerson's info: {Address=123 苹果街, PhoneNum=555-1234, ID=1111, Name=John Smith}
+RPerson's info: {Address=456 橘子街, PhoneNum=555-5678, ID=5555, Name=Jane Doe}
+KPerson's info: {Occupation=医生, Gender=Female, ID=3333, Name=Mary Phil}
+JPerson's info: {Occupation=老师, Gender=Female, ID=5555, Name=Jane Doe}
+PPerson's info: {Occupation=Pilot, Gender=Male, ID=6666, Name=Jerry Springfield}
+	TPerson's info: {Address=123 苹果街, PhoneNum=555-1234, ID=1111, Name=John Smith}
+	RPerson's info: {Address=456 橘子街, PhoneNum=555-5678, ID=5555, Name=Jane Doe}
