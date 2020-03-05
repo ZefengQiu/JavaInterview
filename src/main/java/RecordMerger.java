@@ -1,12 +1,16 @@
 import java.io.IOException;
+import java.nio.file.Files;
 import java.util.ArrayList;
 import java.util.List;
 import model.CSVParser;
 import model.HTMLParser;
 import model.Person;
+import model.Parser;
 import utlis.ResourceLoader;
 import utlis.ResourceMerger;
+import utlis.ResourceParser;
 import utlis.ResourceWriter;
+import java.nio.file.Files.*;
 
 public class RecordMerger {
 
@@ -22,12 +26,10 @@ public class RecordMerger {
     public static void main(String[] args) {
       System.out.println("Hello world ...");
 
-      HTMLParser htmlParser = new HTMLParser(new ResourceLoader("first.html"));
-      CSVParser csvParser = new CSVParser(new ResourceLoader("second.csv"));
-      List<List<Person>> lists = new ArrayList<List<Person>>();
+      ResourceParser rp = new ResourceParser(args);
+
       try {
-        lists.add(htmlParser.parse());
-        lists.add(csvParser.parse());
+        List<List<Person>> lists = rp.parse();;
 
         ResourceMerger merger = new ResourceMerger(lists);
         List<Person> allP = merger.merge();
