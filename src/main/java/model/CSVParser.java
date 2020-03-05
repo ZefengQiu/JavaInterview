@@ -20,9 +20,7 @@ public class CSVParser implements Parser {
   public List<Person> parse() throws IOException {
     try {
       Reader reader = this.loader.read();
-      System.out.print("url asdcva " + reader.toString());
       CSVReader csvReader = new CSVReader(reader);
-      System.out.print("url  vera" + csvReader.toString());
       String[] nextRecords;
       Boolean firstLine = true;
       List<String> keys = new ArrayList<String>();
@@ -48,10 +46,6 @@ public class CSVParser implements Parser {
 
           result.add(p);
         }
-      }
-
-      for(Person p: result) {
-        System.out.print("person id is : " +p.getInfo() + "\n");
       }
 
       return result;
