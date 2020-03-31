@@ -1,7 +1,7 @@
 # JavaInterview
 
 ## Description
-For Veeva backend dev interview, change ant project to use Gradle. Upgrade the lib to later version.
+Gradle. Upgrade the lib to later version.
 Implement dependency injection, inheritance and polymorphism for future improvement and easy to union test.
 
 ## Build, Run, Test, Result
